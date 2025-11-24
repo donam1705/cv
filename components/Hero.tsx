@@ -45,7 +45,6 @@ export default function Hero() {
 
   return (
     <section className="min-h-screen flex flex-col justify-center items-center text-center relative overflow-hidden bg-gray-50 dark:bg-gray-950">
-      {/* Background Elements */}
       <motion.div
         style={{ y: y2 }}
         className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-pink-500/20 dark:from-blue-900/20 dark:via-purple-900/20 dark:to-pink-900/20 blur-3xl"
@@ -93,7 +92,6 @@ export default function Hero() {
         </div>
       </motion.div>
 
-      {/* Scroll Indicator */}
       <motion.div 
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
