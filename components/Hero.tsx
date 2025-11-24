@@ -31,7 +31,7 @@ export default function Hero() {
 
       if (!isDeleting && updatedText === currentRole) {
         setIsDeleting(true);
-        setDelta(2000); // Pause at end
+        setDelta(2000);
       } else if (isDeleting && updatedText === "") {
         setIsDeleting(false);
         setRoleIndex((prev) => (prev + 1) % roles.length);
@@ -51,7 +51,12 @@ export default function Hero() {
         className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-purple-500/20 to-pink-500/20 dark:from-blue-900/20 dark:via-purple-900/20 dark:to-pink-900/20 blur-3xl"
       />
       
-      <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
+      <div 
+        className="absolute inset-0 bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"
+        style={{
+          backgroundImage: `url('${process.env.NODE_ENV === "production" ? "/cv" : ""}/grid.svg')`
+        }}
+      />
 
       <motion.div
         style={{ y: y1 }}
