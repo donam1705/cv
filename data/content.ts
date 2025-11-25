@@ -8,7 +8,7 @@ export const content = {
   },
   about: {
     title: "Về Tôi",
-    image: "https://cdn.discordapp.com/avatars/842031315305627648/archived/1442458283125244034/c13793da6446315c1b33fe08f3f4580e.png?size=1280",
+    image: "",
     description: [
       "Xin chào! Tôi là Đỗ Thành Nam, một lập trình viên Frontend với 3 năm kinh nghiệm. Tôi chuyên về React, Next.js và hệ sinh thái JavaScript.",
       "Tôi luôn tìm tòi học hỏi các công nghệ mới để áp dụng vào công việc, giúp tối ưu hóa quy trình và nâng cao chất lượng sản phẩm.",
