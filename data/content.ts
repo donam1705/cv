@@ -1,7 +1,7 @@
 export const content = {
   hero: {
     name: "Nguyễn Văn A",
-    roles: ["Frontend Developer", "UI/UX Designer", , "Backend Developer"],
+    roles: ["Frontend Developer", "UI/UX Designer", "Backend Developer"],
     description:
       "Tôi là một lập trình viên đam mê xây dựng các ứng dụng web đẹp mắt, hiệu năng cao và thân thiện với người dùng.",
     cta: "Xem Dự Án",
