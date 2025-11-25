@@ -25,7 +25,6 @@ export default function Experience() {
               transition={{ duration: 0.5, delay: idx * 0.1 }}
               className="relative pl-8 md:pl-12"
             >
-              {/* Dot on timeline */}
               <span className="absolute -left-[9px] top-0 w-5 h-5 rounded-full bg-blue-600 border-4 border-white dark:border-gray-950" />
               
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">

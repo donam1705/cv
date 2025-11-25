@@ -1,7 +1,7 @@
 export const content = {
   hero: {
     name: "Nguyễn Văn A",
-    roles: ["Frontend Developer", "UI/UX Designer"],
+    roles: ["Frontend Developer", "UI/UX Designer", , "Backend Developer"],
     description:
       "Tôi là một lập trình viên đam mê xây dựng các ứng dụng web đẹp mắt, hiệu năng cao và thân thiện với người dùng.",
     cta: "Xem Dự Án",
@@ -24,7 +24,7 @@ export const content = {
         ".",
     },
     {
-      company: "Startup XYZ",
+      company: "Hello MMB",
       role: "Frontend Developer",
       period: "2021 - 2023",
       description:
@@ -64,22 +64,12 @@ export const content = {
         github: "#",
       },
     },
-    {
-      title: "Task Management App",
-      description:
-        "Ứng dụng quản lý công việc nhóm, hỗ trợ kéo thả, real-time update và dark mode.",
-      tech: ["React", "Firebase", "Beautiful DnD"],
-      image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?fit=crop&w=800&q=80",
-      links: {
-        demo: "#",
-        github: "#",
-      },
-    },
+
     {
       title: "AI Content Generator",
       description:
         "Công cụ tạo nội dung marketing tự động sử dụng OpenAI API.",
-      tech: ["Next.js", "OpenAI API", "tRPC"],
+      tech: ["Next.js", "OpenAI API",],
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?fit=crop&w=800&q=80",
       links: {
         demo: "#",

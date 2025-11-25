@@ -51,11 +51,11 @@ export default function About() {
 
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg text-center">
-                <span className="block text-3xl font-bold text-blue-600 dark:text-blue-400">3+</span>
+                <span className="block text-3xl font-bold text-blue-600 dark:text-blue-400">.</span>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Năm kinh nghiệm</span>
               </div>
               <div className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg text-center">
-                <span className="block text-3xl font-bold text-purple-600 dark:text-purple-400">20+</span>
+                <span className="block text-3xl font-bold text-purple-600 dark:text-purple-400">.</span>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Dự án hoàn thành</span>
               </div>
             </div>
