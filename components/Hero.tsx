@@ -73,7 +73,7 @@ export default function Hero() {
         
         <div className="h-12 md:h-16 mb-8 flex items-center justify-center">
           <span className="text-2xl md:text-4xl font-bold text-gray-800 dark:text-gray-200">
-            I am a <span className="text-blue-600 dark:text-blue-400">{text}</span>
+            Tôi là một <span className="text-blue-600 dark:text-blue-400">{text}</span>
             <span className="animate-pulse">|</span>
           </span>
         </div>

@@ -1,6 +1,6 @@
 export const content = {
   hero: {
-    name: "Nguyễn Văn A",
+    name: "Đỗ Thành Nam",
     roles: ["Frontend Developer", "UI/UX Designer", "Backend Developer"],
     description:
       "Tôi là một lập trình viên đam mê xây dựng các ứng dụng web đẹp mắt, hiệu năng cao và thân thiện với người dùng.",
@@ -10,7 +10,7 @@ export const content = {
     title: "Về Tôi",
     image: "https://cdn.discordapp.com/avatars/842031315305627648/archived/1442458283125244034/c13793da6446315c1b33fe08f3f4580e.png?size=1280",
     description: [
-      "Xin chào! Tôi là Nguyễn Văn A, một lập trình viên Frontend với 3 năm kinh nghiệm. Tôi chuyên về React, Next.js và hệ sinh thái JavaScript.",
+      "Xin chào! Tôi là Đỗ Thành Nam, một lập trình viên Frontend với 3 năm kinh nghiệm. Tôi chuyên về React, Next.js và hệ sinh thái JavaScript.",
       "Tôi luôn tìm tòi học hỏi các công nghệ mới để áp dụng vào công việc, giúp tối ưu hóa quy trình và nâng cao chất lượng sản phẩm.",
       "Ngoài code, tôi còn thích chụp ảnh và chơi game.",
     ],
@@ -78,7 +78,7 @@ export const content = {
     },
   ],
   contact: {
-    email: "contact@example.com",
+    email: "hello@abc.com",
     phone: "+84 123 456 789",
     social: {
       github: "https://github.com",

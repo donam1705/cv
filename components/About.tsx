@@ -13,7 +13,6 @@ export default function About() {
           transition={{ duration: 0.8 }}
           className="grid md:grid-cols-2 gap-12 items-center"
         >
-          {/* Image Side */}
           <motion.div 
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -27,12 +26,10 @@ export default function About() {
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
-            {/* Decor elements */}
             <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-blue-500/30 rounded-2xl -z-0" />
             <div className="absolute -top-6 -left-6 w-32 h-32 bg-purple-500/10 rounded-full blur-2xl" />
           </motion.div>
 
-          {/* Text Side */}
           <motion.div
             initial={{ x: 50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
